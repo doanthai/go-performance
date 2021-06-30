@@ -1,0 +1,18 @@
+goos: linux
+goarch: amd64
+pkg: go-performance
+cpu: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+BenchmarkSetWithBoolValueWrite
+BenchmarkSetWithBoolValueWrite      	       1	2844749011 ns/op	883731336 B/op	  615595 allocs/op
+BenchmarkSetWithBoolValueWrite      	       1	2698249293 ns/op	883632632 B/op	  614564 allocs/op
+BenchmarkSetWithBoolValueWrite      	       1	2553455102 ns/op	883500216 B/op	  613185 allocs/op
+BenchmarkSetWithStructValueWrite
+BenchmarkSetWithStructValueWrite    	       1	2525005082 ns/op	802343592 B/op	  612537 allocs/op
+BenchmarkSetWithStructValueWrite    	       1	2544062357 ns/op	802399224 B/op	  613461 allocs/op
+BenchmarkSetWithStructValueWrite    	       1	2626545912 ns/op	802478872 B/op	  614225 allocs/op
+BenchmarkSetWithInterfaceValueWrite
+BenchmarkSetWithInterfaceValueWrite 	       1	5082315345 ns/op	1981759512 B/op	  614733 allocs/op
+BenchmarkSetWithInterfaceValueWrite 	       1	4871356347 ns/op	1981560456 B/op	  613776 allocs/op
+BenchmarkSetWithInterfaceValueWrite 	       1	4850189326 ns/op	1981783640 B/op	  614849 allocs/op
+PASS
+ok  	go-performance	30.684s
